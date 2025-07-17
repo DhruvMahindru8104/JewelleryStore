@@ -3,6 +3,19 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 export default function HeroSection() {
+  
+const phoneNumber = '6239535324'; // Change this to your WhatsApp number with country code
+
+  const message = encodeURIComponent(
+    'I want to buy some product from your store. Can you please send a sample?'
+  );
+
+  const handleClick = () => {
+    console.log('Button clicked!'); // For debugging
+    const url = `https://wa.me/${phoneNumber}?text=${message}`;
+    window.open(url, '_blank');
+  };
+
   return (
     <section className="py-4 md:py-20">
       <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-20">
@@ -68,10 +81,10 @@ export default function HeroSection() {
             transition={{ delay: 1, duration: 0.8 }}
             className="flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start"
           >
-            <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium bg-yellow-600 text-white hover:bg-yellow-700 transition-colors h-10 px-4 py-2 w-full sm:w-auto">
+            <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium bg-yellow-600 text-white hover:bg-yellow-700 transition-colors h-10 px-4 py-2 w-full sm:w-auto" onClick={handleClick}>
               Shop Now
             </button>
-            <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium border border-yellow-600 text-yellow-700 hover:bg-yellow-100 transition-colors h-10 px-4 py-2 w-full sm:w-auto">
+            <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium border border-yellow-600 text-yellow-700 hover:bg-yellow-100 transition-colors h-10 px-4 py-2 w-full sm:w-auto" onClick={handleClick}>
               View Collections
               <svg
                 xmlns="http://www.w3.org/2000/svg"
