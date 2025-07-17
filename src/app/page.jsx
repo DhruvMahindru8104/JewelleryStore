@@ -7,6 +7,34 @@ import FounderMessageSection from "@/components/mycomponents/Founder";
 import TestimonialsSection from "@/components/mycomponents/testimonials";
 import ContactSection from "@/components/mycomponents/Contact";
 import Footer from "@/components/mycomponents/Footer";
+export const metadata = {
+  title: "Prempal Jeweller | Handcrafted Jewellery in India",
+  description: "Discover timeless handcrafted jewellery from Prempal Jeweller. Gold, silver, and custom designs made with love and precision.",
+  keywords: "Prempal Jeweller, handcrafted jewellery, gold jewellery, silver jewellery, Indian jeweller, custom jewellery",
+  authors: [{ name: "Prempal Jeweller" }],
+  robots: "index, follow",
+   openGraph: {
+    title: "Prempal Jeweller | Handcrafted Jewellery in India",
+    description: "Explore beautiful handcrafted jewellery from Prempal Jeweller.",
+    url: "https://prempaljeweller.vercel.app",
+    siteName: "Prempal Jeweller",
+    images: [
+      {
+        url: "/opengraph-image.jpg", // Host this image locally
+        width: 1200,
+        height: 630,
+        alt: "Prempal Jeweller Collection",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Prempal Jeweller",
+    description: "Discover timeless handcrafted jewellery from Prempal Jeweller.",
+    images: ["/opengraph-image.jpg"],
+  },
+};
 export default function Home() {
   return (
  <> 
