@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Prem Pal Jewellers",
   description: "Best Ring Wholesaler in Amritsar",
+    verification: {
+    google: "NBcM0KC7LzlFvKgNFic_yLD1FHFResize2ExM6_15Mc",
+  },
 };
 
 export default function RootLayout({ children }) {
