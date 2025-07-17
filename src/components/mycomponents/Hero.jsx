@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function HeroSection() {
   return (
-    <section className="py-8 md:py-20">
+    <section className="py-4 md:py-20">
       <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-20">
         {/* Left Image Section */}
         <motion.div
@@ -29,7 +29,7 @@ export default function HeroSection() {
           transition={{ delay: 0.5, duration: 1 }}
           className="flex flex-col items-center text-center lg:max-w-3xl lg:items-start lg:text-left"
         >
-          <div className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors border-transparent bg-yellow-100 text-yellow-800 hover:bg-yellow-200">
+          <div className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors border-transparent bg-yellow-100 text-yellow-800 hover:bg-yellow-200 scale-125">
             New Arrival
             <svg
               xmlns="http://www.w3.org/2000/svg"

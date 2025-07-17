@@ -27,7 +27,7 @@ const images = [
 
 export default function Gallery() {
   return (
-    <section className="py-8 md:py-20">
+    <section className="py-4 md:py-20">
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold text-yellow-500 mb-4">Explore Our Latest Designs</h2>
         <p className="text-zinc-600 max-w-2xl mx-auto">

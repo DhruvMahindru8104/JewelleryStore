@@ -38,7 +38,7 @@ const contactItems = [
 
 export default function ContactSection() {
   return (
-    <section className="bg-white dark:bg-gray-950 py-8 md:py-20">
+    <section className="bg-white dark:bg-gray-950 py-4 md:py-20">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: -20 }}

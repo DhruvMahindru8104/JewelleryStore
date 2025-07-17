@@ -31,7 +31,7 @@ function AnimatedCounter({ from = 0, to }) {
 // Main Component
 export default function MetricsSection() {
   return (
-    <section className="py-8 md:py-20   dark:bg-gray-900">
+    <section className="py-4 md:py-20   dark:bg-gray-900">
       <div className="container px-4 mx-auto">
         {/* Heading */}
         <h1 className="text-center text-4xl font-semibold lg:text-6xl text-[#D4AF37]">

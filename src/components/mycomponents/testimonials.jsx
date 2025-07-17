@@ -53,7 +53,7 @@ export default function TestimonialSection() {
 
   return (
     <section className="px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto md:py-20 py-8 ">
+      <div className="max-w-7xl mx-auto md:py-20 py-4 ">
         <motion.h2
           className="text-center text-3xl font-bold text-[#D4AF37] mb-12 uppercase tracking-wider"
           initial={{ opacity: 0, y: -20 }}
