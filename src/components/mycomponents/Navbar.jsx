@@ -22,7 +22,7 @@ export default function Navbar() {
           alt="Logo"
           width={50}
           height={50}
-          className="h-12 w-auto rounded-full"
+          className="h-18 w-auto rounded-full"
         />
       </Link>
       <div className={"text-2xl font-semibold tracking-wide text-gray-800 "}>

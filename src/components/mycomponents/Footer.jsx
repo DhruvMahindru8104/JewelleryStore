@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="bg-white dark:bg-gray-900">
       <div className="container mx-auto flex flex-col items-center justify-between p-6 space-y-4 sm:flex-row sm:space-y-0">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2">
       <Link href="/">
         <Image
           src="/LogoBhai.jpeg"
