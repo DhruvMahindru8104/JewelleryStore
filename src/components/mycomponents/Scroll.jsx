@@ -14,7 +14,7 @@ export default function OverviewSection() {
           transition={{ duration: 0.6 }}
           className="mx-auto flex max-w-screen-md flex-col items-center gap-6 text-center"
         >
-          <div className="inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold text-foreground">
+          <div className="inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold  bg-yellow-100 text-yellow-800 hover:bg-yellow-200">
             Our Craftsmanship
           </div>
           <h2 className="text-3xl font-bold lg:text-4xl">

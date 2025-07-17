@@ -1,8 +1,8 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { MdEmail, MdLocationOn, MdPhone } from 'react-icons/md'
-import { FaWhatsapp } from 'react-icons/fa'
+import { MdEmail, MdPhone } from 'react-icons/md'
+import { FaWhatsapp, FaInstagram, FaFacebookF } from 'react-icons/fa'
 
 const contactItems = [
   {
@@ -10,14 +10,7 @@ const contactItems = [
     title: 'Email',
     description: 'Feel free to send us an email anytime.',
     value: 'dhruv.mahindru08@gmail.com',
-    action: `mailto:dhruv.mahindru08@gmail.com`,
-  },
-  {
-    icon: <MdLocationOn className="w-6 h-6" />,
-    title: 'Office',
-    description: 'Visit our office for direct communication.',
-    value:
-      'SCO 10-11, Sehaj Enclave, Majitha Rd, Near Gopal Mandir, Sehaj Avenue, Amritsar, Punjab 143001',
+    action: 'mailto:dhruv.mahindru08@gmail.com',
   },
   {
     icon: <MdPhone className="w-6 h-6" />,
@@ -26,6 +19,20 @@ const contactItems = [
     value: '+91 62395 35324',
     action: 'tel:+916239535324',
     whatsapp: 'https://wa.me/916239535324',
+  },
+  {
+    icon: <FaInstagram className="w-6 h-6" />,
+    title: 'Instagram',
+    description: 'Follow us for latest updates and designs.',
+    value: '@prem_pal_jewellers',
+    action: 'https://www.instagram.com/prem_pal_jewellers',
+  },
+  {
+    icon: <FaFacebookF className="w-6 h-6" />,
+    title: 'Facebook',
+    description: 'Connect with us on Facebook.',
+    value: 'facebook.com/prempaljewellers',
+    action: 'https://www.facebook.com/prempaljewellers',
   },
 ]
 
@@ -76,11 +83,15 @@ export default function ContactSection() {
                   {item.action && (
                     <a
                       href={item.action}
-                      className={`inline-block px-4 py-1.5 text-sm bg-yellow-700 text-white rounded hover:bg-yellow-800 transition ${
-                        item.title === 'Phone' ? '' : ''
-                      }`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block px-4 py-1.5 text-sm bg-yellow-700 text-white rounded hover:bg-yellow-800 transition"
                     >
-                      {item.title === 'Email' ? 'Send Email' : 'Call'}
+                      {item.title === 'Email'
+                        ? 'Send Email'
+                        : item.title === 'Phone'
+                        ? 'Call'
+                        : `Visit ${item.title}`}
                     </a>
                   )}
                   {item.whatsapp && (
