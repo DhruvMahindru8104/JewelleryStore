@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 
 export default function FounderMessageSection() {
   return (
-    <section className="bg-[#fdf6f0] dark:bg-gray-900">
-      <div className="max-w-6xl px-6 py-10 mx-auto">
+    <section className="bg-[#fdf6f0] dark:bg-gray-900 py-8 md:py-20">
+      <div className="max-w-6xl px-6  mx-auto">
         {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}

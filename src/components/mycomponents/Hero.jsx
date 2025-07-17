@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function HeroSection() {
   return (
-    <section className="py-8 md:py-32">
+    <section className="py-8 md:py-20">
       <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-20">
         {/* Left Image Section */}
         <motion.div

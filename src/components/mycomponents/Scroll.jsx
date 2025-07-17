@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function OverviewSection() {
   return (
-    <section className="pb-10 md:pb-20">
+    <section className="py-8 md:py-20">
       <div className="container">
         {/* Heading */}
         <motion.div

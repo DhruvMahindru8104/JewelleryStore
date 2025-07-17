@@ -4,6 +4,9 @@ import Gallery from "@/components/mycomponents/gallery";
 import OverviewSection from "@/components/mycomponents/Scroll";
 import JewelleryMetricsSection from "@/components/mycomponents/Metricsme";
 import FounderMessageSection from "@/components/mycomponents/Founder";
+import TestimonialsSection from "@/components/mycomponents/testimonials";
+import ContactSection from "@/components/mycomponents/Contact";
+import Footer from "@/components/mycomponents/Footer";
 export default function Home() {
   return (
  <> 
@@ -13,6 +16,9 @@ export default function Home() {
   <OverviewSection/>
   <FounderMessageSection/>
   <JewelleryMetricsSection/>
+  <TestimonialsSection/>
+  <ContactSection/>
+  <Footer/>
  </div>
  </>
   );
