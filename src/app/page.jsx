@@ -7,6 +7,7 @@ import FounderMessageSection from "@/components/mycomponents/Founder";
 import TestimonialsSection from "@/components/mycomponents/testimonials";
 import ContactSection from "@/components/mycomponents/Contact";
 import Footer from "@/components/mycomponents/Footer";
+import AntiqueRingBoxModel from "@/components/mycomponents/mymodel";
 export default function Home() {
   return (
  <> 
@@ -19,6 +20,9 @@ export default function Home() {
   <TestimonialsSection/>
   <ContactSection/>
   <Footer/>
+  <div className="w-1/2">
+    <AntiqueRingBoxModel />
+  </div>
  </div>
  </>
   );
