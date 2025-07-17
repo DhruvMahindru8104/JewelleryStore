@@ -20,7 +20,7 @@ export const metadata = {
     siteName: "Prempal Jeweller",
     images: [
       {
-        url: "/opengraph-image.jpg", // Host this image locally
+        url: "/LogoBhai.jpeg", // Host this image locally
         width: 1200,
         height: 630,
         alt: "Prempal Jeweller Collection",
@@ -32,7 +32,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Prempal Jeweller",
     description: "Discover timeless handcrafted jewellery from Prempal Jeweller.",
-    images: ["/opengraph-image.jpg"],
+    images: ["/LogoBhai.jpeg"], // Host this image locally
   },
 };
 export default function Home() {
