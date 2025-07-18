@@ -16,11 +16,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Prem Pal Jewellers",
+  title: 'Best Jeweller in Amritsar | Prempal Jewellers',
+  description: 'Prempal Jewellers - Trusted jewellery shop in Amritsar. Explore gold, diamond, and wedding jewellery collections at best prices.',
+  keywords: 'best jeweller in Amritsar, Amritsar jewellery shop, gold jewellery, diamond jewellery',
   icons: {
     icon: '/favicon.ico',
   },
-  description: "Best Ring Wholesaler in Amritsar",
     verification: {
     google: "NBcM0KC7LzlFvKgNFic_yLD1FHFResize2ExM6_15Mc",
   },
